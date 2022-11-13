@@ -233,7 +233,7 @@ struct HomeView: View {
                             }
                             .padding(.leading, 15)
                         }
-                        .padding(.bottom, 25)
+                        .padding(.bottom, 15)
                     }
                     /*Text("Motivation!")
                      .font(.system(size: 30))
@@ -243,6 +243,7 @@ struct HomeView: View {
                      .padding(.horizontal, 10)
                      .padding(.bottom, 10)*/
                     
+                                        
                     Text(tips.randomElement()!)
                         .frame(width: 350, height: 100)
                         .lineLimit(nil)

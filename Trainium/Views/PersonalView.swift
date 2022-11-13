@@ -170,6 +170,43 @@ struct PersonalView: View {
                     }
                     .padding([.horizontal, .bottom])
                     
+                    Text("Workout Invites")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .font(.system(size: 24))
+                        .fontWeight(.regular)
+                        .foregroundColor(Color("black"))
+                        .padding(.leading)
+                    HStack {
+                        Text("Jack Winslow\nThe Boys\n11/15/22 6:30PM")
+                            .font(.system(size: 18))
+                            .fontWeight(.medium)
+                        Spacer()
+                        
+                        Button {
+                            impactSoft.impactOccurred()
+                            
+                        } label: {
+                            Text("Accept")
+                                .font(.system(size: 18))
+                                .fontWeight(.medium)
+                        }
+                        
+                        Button {
+                            
+                        } label: {
+                            Text("Decline")
+                                .font(.system(size: 18))
+                                .fontWeight(.medium)
+                        }
+                    }
+                    .foregroundColor(Color("white"))
+                    .padding(10)
+                    .frame(maxWidth: .infinity)
+                    .background(Color("red"))
+                    .cornerRadius(12)
+                    .padding([.horizontal, .bottom])
+
+                    
 //                    Text("Friends")
 //                        .frame(maxWidth: .infinity, alignment: .leading)
 //                        .font(.system(size: 24))
