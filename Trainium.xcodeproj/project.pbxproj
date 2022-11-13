@@ -58,6 +58,7 @@
 		9B0997362920CE9600FFEECE /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0997352920CE9600FFEECE /* CommunityView.swift */; };
 		9B0997382920D77600FFEECE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0997372920D77500FFEECE /* SettingsView.swift */; };
 		9BA784C42920519600A5DF04 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA784C32920519600A5DF04 /* HomeView.swift */; };
+		9BF62DB229214A180015D0A4 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF62DB129214A180015D0A4 /* GroupView.swift */; };
 		9BFCE5D4292064E500D5AD30 /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCE5D3292064E500D5AD30 /* PersonalView.swift */; };
 		9BFCE5D82920AA1400D5AD30 /* ScheduleWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCE5D72920AA1400D5AD30 /* ScheduleWorkoutView.swift */; };
 /* End PBXBuildFile section */
@@ -88,6 +89,7 @@
 		9B0997352920CE9600FFEECE /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		9B0997372920D77500FFEECE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9BA784C32920519600A5DF04 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9BF62DB129214A180015D0A4 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		9BFCE5D3292064E500D5AD30 /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		9BFCE5D72920AA1400D5AD30 /* ScheduleWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +193,7 @@
 				34941AE12920EA580074238F /* ContentView.swift */,
 				9BA784C32920519600A5DF04 /* HomeView.swift */,
 				9BFCE5D72920AA1400D5AD30 /* ScheduleWorkoutView.swift */,
+				9BF62DB129214A180015D0A4 /* GroupView.swift */,
 				9B0997352920CE9600FFEECE /* CommunityView.swift */,
 				9BFCE5D3292064E500D5AD30 /* PersonalView.swift */,
 				9B0997372920D77500FFEECE /* SettingsView.swift */,
@@ -316,6 +319,7 @@
 			files = (
 				342183F029204DF300F378D2 /* SignUpView.swift in Sources */,
 				342183F229204E2900F378D2 /* OnBoardView.swift in Sources */,
+				9BF62DB229214A180015D0A4 /* GroupView.swift in Sources */,
 				34941AED2920F5080074238F /* CurrentUser.swift in Sources */,
 				342183EA2920430700F378D2 /* WelcomeView.swift in Sources */,
 				9B0997382920D77600FFEECE /* SettingsView.swift in Sources */,
